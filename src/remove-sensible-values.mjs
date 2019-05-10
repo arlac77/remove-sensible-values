@@ -29,7 +29,7 @@ export function removeSensibleValues(
     const value = object[key];
 
     if (typeof value === "string" || value instanceof String) {
-      if (toBeRemoved(key,toBeRemoved)) {
+      if (toBeRemoved(key)) {
         result[key] = "...";
         continue;
       }
