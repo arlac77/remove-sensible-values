@@ -1,0 +1,4 @@
+{
+  "name": "remove-sensible-values",
+  "description": "remove sensible valuesfrom an object tree"
+}
