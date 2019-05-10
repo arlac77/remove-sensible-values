@@ -1,4 +1,65 @@
 {
   "name": "remove-sensible-values",
-  "description": "remove sensible valuesfrom an object tree"
+  "version": "0.0.0-semantic-release",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "{{module}}",
+  "description": "remove sensible valuesfrom an object tree",
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "cover": "c8 --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
+    "docs": "documentation readme {{module}} --section=API",
+    "lint": "documentation lint {{module}}",
+    "posttest": "markdown-doctest",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "c8": "^4.1.4",
+    "documentation": "^11.0.0",
+    "esm": "^3.2.22",
+    "markdown-doctest": "^0.9.1",
+    "semantic-release": "^15.13.13"
+  },
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/remove-sensible-values.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/remove-sensible-values/issues"
+  },
+  "homepage": "https://github.com/arlac77/remove-sensible-values#readme",
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "extensions": [
+      "js",
+      "mjs"
+    ],
+    "babel": false,
+    "compileEnhancements": false,
+    "files": [
+      "tests/*-test.js",
+      "tests/*-test.mjs"
+    ]
+  },
+  "template": {
+    "repository": {
+      "url": "https://github.com/arlac77/npm-package-template-esm-only.git"
+    }
+  }
 }
