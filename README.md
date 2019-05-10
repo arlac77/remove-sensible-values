@@ -11,3 +11,22 @@
 [![docs](http://inch-ci.org/github/arlac77/remove-sensible-values.svg?branch=master)](http://inch-ci.org/github/arlac77/remove-sensible-values)
 [![downloads](http://img.shields.io/npm/dm/remove-sensible-values.svg?style=flat-square)](https://npmjs.org/package/remove-sensible-values)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+## remove-sensible-values
+
+remove sensible values from an object tree
+
+# API
+
+
+# install
+
+With [npm](http://npmjs.org) do:
+
+```shell
+npm install remove-sensible-values
+```
+
+# license
+
+BSD-2-Clause

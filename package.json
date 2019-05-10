@@ -5,9 +5,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "{{module}}",
-  "description": "remove sensible valuesfrom an object tree",
-  "keywords": [],
+  "main": "src/remove-sensible-values.mjs",
+  "description": "remove sensible values from an object tree",
+  "keywords": [
+    "sensible-data"
+  ],
   "contributors": [
     {
       "name": "Markus Felten",
@@ -17,8 +19,8 @@
   "license": "BSD-2-Clause",
   "scripts": {
     "cover": "c8 --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
-    "docs": "documentation readme {{module}} --section=API",
-    "lint": "documentation lint {{module}}",
+    "docs": "documentation readme src/remove-sensible-values.mjs --section=API",
+    "lint": "documentation lint src/remove-sensible-values.mjs",
     "posttest": "markdown-doctest",
     "test": "ava"
   },
