@@ -27,3 +27,6 @@ jobs:
         skip_cleanup: 'true'
         script:
           - npx semantic-release
+node_js:
+  - 10.15.3
+  - 12.2.0
