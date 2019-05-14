@@ -6,7 +6,7 @@
  */
 export function removeSensibleValues(
   object,
-  toBeRemoved = key => key.match(/pass|auth|key|user|secret/)
+  toBeRemoved = key => key.match(/pass|auth|key|user|secret|token/)
 ) {
   if (
     object === undefined ||

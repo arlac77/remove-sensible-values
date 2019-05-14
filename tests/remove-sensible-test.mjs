@@ -8,6 +8,7 @@ test("removeSensibleValues", t => {
       key: "secure",
       password: "secure",
       secret: "secure",
+      token2: "secure",
       b: true,
       c: 77n,
       values: [{ key: "abc" }]
@@ -17,6 +18,7 @@ test("removeSensibleValues", t => {
       key: "...",
       password: "...",
       secret: "...",
+      token2: "...",
       b: true,
       c: 77n,
       values: [{ key: "..." }]
