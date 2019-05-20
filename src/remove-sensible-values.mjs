@@ -1,4 +1,3 @@
-
 /**
  * generates a new object tree by removing sensible values like credentials from the given one
  * @param {Object} object source
@@ -6,7 +5,7 @@
  */
 export function removeSensibleValues(
   object,
-  toBeRemoved = key => key.match(/pass|auth|key|user|secret|token/)
+  toBeRemoved = key => key.match(/pass|auth|key|user|secret|token/i)
 ) {
   if (
     object === undefined ||
@@ -20,8 +19,8 @@ export function removeSensibleValues(
     return object;
   }
 
-  if(Array.isArray(object)) {
-    return object.map(e => removeSensibleValues(e,toBeRemoved));
+  if (Array.isArray(object)) {
+    return object.map(e => removeSensibleValues(e, toBeRemoved));
   }
 
   const result = {};
@@ -35,7 +34,7 @@ export function removeSensibleValues(
       }
     }
 
-    result[key] = removeSensibleValues(value,toBeRemoved);
+    result[key] = removeSensibleValues(value, toBeRemoved);
   }
 
   return result;
