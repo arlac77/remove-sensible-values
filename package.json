@@ -6,6 +6,7 @@
     "access": "public"
   },
   "main": "src/remove-sensible-values.mjs",
+  "module": "src/remove-sensible-values.mjs",
   "description": "remove sensible values from an object tree",
   "keywords": [
     "sensible-data"
@@ -49,13 +50,11 @@
       "esm"
     ],
     "extensions": [
-      "js",
       "mjs"
     ],
     "babel": false,
     "compileEnhancements": false,
     "files": [
-      "tests/*-test.js",
       "tests/*-test.mjs"
     ]
   },
