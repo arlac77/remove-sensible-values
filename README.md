@@ -16,7 +16,7 @@
 
 remove sensible values from an object tree
 
-```js
+```es6
 import { removeSensibleValues } from "remove-sensible-values";
 
 console.log(removeSensibleValues({password : "secret", other: "present" }));
