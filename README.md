@@ -16,6 +16,7 @@
 
 remove sensible values from an object tree
 
+<!-- skip-example -->
 ```es6
 import { removeSensibleValues } from "remove-sensible-values";
 
