@@ -8,7 +8,8 @@
   "type": "module",
   "main": "src/remove-sensible-values.mjs",
   "exports": {
-    ".": "./src/remove-sensible-values.mjs"
+    ".": "./src/remove-sensible-values.mjs",
+    "./": "./"
   },
   "description": "remove sensible values from an object tree",
   "keywords": [
