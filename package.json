@@ -6,7 +6,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "main": "src/remove-sensible-values.mjs",
+  "main": "./src/remove-sensible-values.mjs",
   "exports": {
     ".": "src/remove-sensible-values.mjs"
   },
