@@ -3,7 +3,7 @@
 [![minified size](https://badgen.net/bundlephobia/min/remove-sensible-values)](https://bundlephobia.com/result?p=remove-sensible-values)
 [![downloads](http://img.shields.io/npm/dm/remove-sensible-values.svg?style=flat-square)](https://npmjs.org/package/remove-sensible-values)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/remove-sensible-values.svg?style=flat-square)](https://github.com/arlac77/remove-sensible-values/issues)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Farlac77%2Fremove-sensible-values%2Fbadge&style=flat)](https://actions-badge.atrox.dev/arlac77/remove-sensible-values/goto)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Farlac77%2Fremove-sensible-values%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/arlac77/remove-sensible-values/goto)
 [![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/remove-sensible-values/badge.svg)](https://snyk.io/test/github/arlac77/remove-sensible-values)
@@ -31,8 +31,8 @@ console.log(removeSensibleValues({password : "secret", other: "present" }));
 
 ### Table of Contents
 
--   [removeSensibleValues](#removesensiblevalues)
-    -   [Parameters](#parameters)
+*   [removeSensibleValues](#removesensiblevalues)
+    *   [Parameters](#parameters)
 
 ## removeSensibleValues
 
@@ -40,8 +40,8 @@ generates a new object tree by removing sensible values like credentials from th
 
 ### Parameters
 
--   `object` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** source
--   `toBeRemoved`   (optional, default `key=>key.match(/pass|auth|key|user|secret|token/i)`)
+*   `object` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** source
+*   `toBeRemoved`   (optional, default `key=>key.match(/pass|auth|key|user|secret|token/i)`)
 
 Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** object tree hopefully free of sensible data
 
