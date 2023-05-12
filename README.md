@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/remove-sensible-values.svg)](https://www.npmjs.com/package/remove-sensible-values)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![Open Bundle](https://bundlejs.com/badge-light.svg)](https://bundlejs.com/?q=remove-sensible-values)
+[![bundlejs](https://deno.bundlejs.com/?q=remove-sensible-values\&badge=detailed)](https://bundlejs.com/?q=remove-sensible-values)
 [![downloads](http://img.shields.io/npm/dm/remove-sensible-values.svg?style=flat-square)](https://npmjs.org/package/remove-sensible-values)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/remove-sensible-values.svg?style=flat-square)](https://github.com/arlac77/remove-sensible-values/issues)
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Farlac77%2Fremove-sensible-values%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/arlac77/remove-sensible-values/goto)
@@ -16,7 +16,7 @@ remove sensible values from an object tree
 <!-- skip-example -->
 
 ```es6
-import { removeSensibleValues } from "remove-sensible-values";
+import {Â removeSensibleValues }Â from "remove-sensible-values";
 
 console.log(removeSensibleValues({password : "secret", other: "present" }));
 ```
