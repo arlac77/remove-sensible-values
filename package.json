@@ -6,8 +6,12 @@
     "provenance": true
   },
   "exports": {
-    ".": "./src/remove-sensible-values.mjs"
+    ".": {
+      "types": "./dist/remove-sensible-values.d.mts",
+      "default": "./src/remove-sensible-values.mjs"
+    }
   },
+  "types": "./dist/remove-sensible-values.d.mts",
   "description": "remove sensible values from an object tree",
   "keywords": [
     "sensible-data"
@@ -20,6 +24,7 @@
   ],
   "license": "BSD-2-Clause",
   "scripts": {
+    "prepare": "tsc --allowJs --declaration --emitDeclarationOnly --declarationDir dist -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs",
     "test": "npm run test:ava",
     "test:ava": "ava --timeout 4m tests/*-ava.mjs tests/*-ava-node.mjs",
     "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 4m tests/*-ava.mjs tests/*-ava-node.mjs && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
