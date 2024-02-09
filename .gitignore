@@ -3,6 +3,7 @@ bun.lockb
 /node_modules/**
 *.log
 *.dump
+dist
 *.node
 .DS_Store
 .test
