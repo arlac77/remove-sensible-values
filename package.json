@@ -8,8 +8,8 @@
   "types": "./types/remove-sensible-values.d.mts",
   "exports": {
     ".": {
-      "default": "./src/remove-sensible-values.mjs",
-      "types": "./types/remove-sensible-values.d.mts"
+      "types": "./types/remove-sensible-values.d.mts",
+      "default": "./src/remove-sensible-values.mjs"
     }
   },
   "description": "remove sensible values from an object tree",
