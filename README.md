@@ -1,5 +1,5 @@
 [![npm](https://img.shields.io/npm/v/remove-sensible-values.svg)](https://www.npmjs.com/package/remove-sensible-values)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://spdx.org/licenses/0BSD.html)
+[![License](https://img.shields.io/badge/License-0BSD-blue.svg)](https://spdx.org/licenses/0BSD.html)
 [![Typed with TypeScript](https://flat.badgen.net/badge/icon/Typed?icon=typescript\&label\&labelColor=blue\&color=555555)](https://typescriptlang.org)
 [![bundlejs](https://deno.bundlejs.com/?q=remove-sensible-values\&badge=detailed)](https://bundlejs.com/?q=remove-sensible-values)
 [![downloads](http://img.shields.io/npm/dm/remove-sensible-values.svg?style=flat-square)](https://npmjs.org/package/remove-sensible-values)
@@ -17,7 +17,7 @@ remove sensible values from an object tree
 <!-- skip-example -->
 
 ```es6
-import {ÃÂÃÂ removeSensibleValues }ÃÂÃÂ from "remove-sensible-values";
+import {ÃÂÃÂÃÂÃÂ removeSensibleValues }ÃÂÃÂÃÂÃÂ from "remove-sensible-values";
 
 console.log(removeSensibleValues({password : "secret", other: "present" }));
 ```
