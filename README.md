@@ -8,7 +8,6 @@
 [![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/remove-sensible-values/badge.svg)](https://snyk.io/test/github/arlac77/remove-sensible-values)
-[![Coverage Status](https://coveralls.io/repos/arlac77/remove-sensible-values/badge.svg)](https://coveralls.io/github/arlac77/remove-sensible-values)
 
 ## remove-sensible-values
 
@@ -17,7 +16,7 @@ remove sensible values from an object tree
 <!-- skip-example -->
 
 ```es6
-import {ÃÂÃÂÃÂÃÂ removeSensibleValues }ÃÂÃÂÃÂÃÂ from "remove-sensible-values";
+import {ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ removeSensibleValues }ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ from "remove-sensible-values";
 
 console.log(removeSensibleValues({password : "secret", other: "present" }));
 ```
